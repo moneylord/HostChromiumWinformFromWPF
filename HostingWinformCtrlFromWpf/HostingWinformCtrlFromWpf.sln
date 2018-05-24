@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostingWinformCtrlFromWpf", "HostingWinformCtrlFromWpf\HostingWinformCtrlFromWpf.csproj", "{43D35C58-D309-488B-9C06-46E049F00208}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB} = {4B1F08CC-EA02-4388-ACD2-33586A2618AB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharpWinform", "..\CefSharpWinform\CefSharpWinform\CefSharpWinform.csproj", "{4B1F08CC-EA02-4388-ACD2-33586A2618AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|x64.Build.0 = Debug|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|x86.ActiveCfg = Debug|x86
+		{43D35C58-D309-488B-9C06-46E049F00208}.Debug|x86.Build.0 = Debug|x86
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|x64.ActiveCfg = Release|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|x64.Build.0 = Release|Any CPU
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|x86.ActiveCfg = Release|x86
+		{43D35C58-D309-488B-9C06-46E049F00208}.Release|x86.Build.0 = Release|x86
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|x64.ActiveCfg = Debug|x64
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|x64.Build.0 = Debug|x64
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|x86.ActiveCfg = Debug|x86
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Debug|x86.Build.0 = Debug|x86
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|x64.ActiveCfg = Release|x64
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|x64.Build.0 = Release|x64
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|x86.ActiveCfg = Release|x86
+		{4B1F08CC-EA02-4388-ACD2-33586A2618AB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19721124-4BAB-45D8-A4F1-1A842DD38CAA}
+	EndGlobalSection
+EndGlobal
